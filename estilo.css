@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Noto Sans JP', sans-serif;  
+
+    
+    
+}
+                                            /* COMIENZA ENCABEZADO */
+#encabezado{
+    background-color: #23231a;
+    height: 120px;
+    display: inline-flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    width: 1300px;
+
+}
+
+.lista{
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+
+
+#cerezo{
+
+   background-repeat: no-repeat;    
+   width: 100%;
+   height: 70vh;
+   
+    
+}
+
+h1{
+    color: aliceblue;    
+    margin-bottom: 25px;
+    margin-left: 20px;
+    padding-top: 30px;
+    
+}
+
+
+a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: lighter;  
+    padding: 15px;
+    
+}
+
+.link:hover{
+    background-color: aquamarine;
+    border-radius: 5%;
+    color: black;
+    
+
+}
+
+
+/*-------------------------------------------------- COMIENZA RESPONSIVIDAD ENCABEZADO----------------------------------------- */
+
+@media (max-width: 320px){
+    
+
+    #encabezado{
+
+        width: 1280px;
+        padding-right: 300%;
+        padding-bottom: 60%;
+        
+
+    }
+
+    #cerezo{
+
+           
+        width: 1280px;
+        height: 75vh;
+        
+         
+     }
+
+    .lista{
+        display: flex;
+        margin-left: 0px;
+        padding: 0;
+        
+    }
+
+    .link{
+        padding: 0;
+    }
+
+    
+    nav {
+        
+        font-size: 35px;
+        position: absolute;
+        right: 4px;
+        left:5px;
+        top: 150px;
+        margin:0px;
+        padding:0px;
+        
+    }
+
+    a{
+        margin-left: 130px;
+        margin-top:40px;
+        align-items: space-between;
+        width:100%;
+    }
+
+    h1 {
+        font-size: 50px;
+        padding: 5px;
+        margin-left: 500px;
+        margin-top: 50px;
+        
+        
+    }
+    
+
+    #cerezo{
+        background-image: url("imagenes/cerezo320px.jpg");
+        
+    }
+}
+
+
+@media (min-width: 321px), (max-width:768px){
+    #encabezado{
+
+        width: 1350px;        
+        display: inline-flex;       
+
+    }
+
+    #cerezo{           
+        width: 1350px;
+        height: 75vh;   
+    }
+
+    #articulos-2{
+
+        width: 100vh;
+
+        
+    }
+
+    
+
+}
+
+/*---------------------------------- TERMINA RESPONSIVIDAD ENCABEZADO------------------------------------------- */
+
+                                         /* TERMINA ENCABEZADO */
+
+
+                                        
+
+/*----------------------------------         COMIENZA DIV       ------------------------------------------- */
+
+
+#articulos{
+    display: flex;    
+    text-align: justify;
+    align-content: space-around; 
+    height: 100%;  
+    
+}
+
+.parrafo-articulos, .titulo-articulos {
+    margin: 10mm;
+}
+
+/*----------------------------------         TERMINA  DIV       ------------------------------------------- */
+
+/*----------------------------------    COMIENZA RESPONSIVIDAD DE DIV  ------------------------------------ */
+
+@media(max-width: 320px){
+
+    
+    
+    #articulos{   
+    
+    width: 1280px;
+    
+    flex-wrap: wrap;  
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    
+    }
+
+    article{
+        width:640px;
+        width: 550px;
+        margin-left: 50px;
+    }
+
+    article .img-articulos{
+        
+        width:500px;       
+        height: 300px;
+        
+    }
+
+    article .titulo-articulos{
+        
+        font-size: 36pt;
+        
+    }
+
+    article .parrafo-articulos{
+        font-size: 25pt;
+        
+
+    }
+
+}
+
+/*----------------------------------    TERMINA RESPONSIVIDAD DE DIV  ------------------------------------ */
+                                        
+
+                                        /*     COMIENZA  MINI ARTICULOS  */
+
+
+.titulo-articulos-2 {
+    margin: 10mm;
+}
+
+.img-articulos{
+
+    margin: 10mm;
+    height: 195px;
+    width: 261px;
+}
+
+#articulos-2{
+    display: inline-flex;
+    text-align: justify;
+    align-content: space-around;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #6d5650;
+    background-color: hsl(2, 26%, 19%);
+    width: 1350px; 
+    padding-bottom: 20mm;
+    
+}
+
+.img-articulos-2{
+    margin:2mm;
+    height: 100px;
+    width: 100px;
+}
+
+.titulo-articulos-2{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-left: 10px;
+    font-weight: bolder;
+    color: hsl(31, 23%, 79%);
+}
+
+.parrafo-articulos-2{
+    margin: 1mm; 
+    text-align: justify;
+    height: 100px;
+    font-size: 12px;
+}
+
+.mini-articulo{
+    display: inline-flex;
+    width: 270px;
+}
+
+.ancho-mini-articulo{
+    width: 290px;
+    margin-left: 30px;
+
+}
+
+.ancho-mini-articulo-2{
+    margin-left: 40px;
+    width: 290px;
+}
+
+.ancho-mini-articulo-3{
+    width: 613px;
+    margin-left: 50px;
+
+}
+
+.parrafo-articulos-3{
+    margin-top: 15px;
+    font-size: 12px;
+
+}
+
+.img-articulos-3{
+    width: 613px;
+    height: 180px;
+}
+
+
+
+
+                                           /*  FIN DE MINI ARTICULOS  */
+
+       /*------------------- ---------- COMIENZA RESPONSIVIDAD MINI ARTICULOS ------------------- */
+
+
+@media(max-width: 320px){
+    #articulos-2{
+        width: 1280px; 
+        flex-direction: column; 
+    }
+
+    .ancho-mini-articulo{
+        margin-left:50px;
+        margin-right: 50px;
+        width: 1200px;
+
+    }
+
+    .titulo-articulos-2{
+
+        font-size: 36pt;
+        text-align: center;
+        margin-top: 60px;
+
+    }
+
+    .mini-articulo{
+
+        width: 1200px;   
+    }
+
+    .img-articulos-2{
+        width: 300px;
+        height: 300px;
+    }
+
+    .parrafo-articulos-2{
+
+        font-size: 36pt;
+        margin-left: 25px;
+        margin-right: 25px;
+        width: 700px;
+        margin-top: 35px;
+    }
+
+    .ancho-mini-articulo-2{
+        margin-left:50px;
+        margin-right: 50px;
+        width: 1200px;
+
+    }
+
+    .ancho-mini-articulo-3{
+
+        margin-left:50px;
+        margin-right: 50px;
+        width: 1200px;
+    }
+
+    .img-articulos-3{
+        width:80%;
+        height: 70vh;
+        margin-left: 125px;
+    }
+
+    .parrafo-articulos-3{
+
+        font-size: 30pt;
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+
+    }    
+}
+
+         /*----------------------------  FIN RESPONSIVIDAD DE MINI ARTICULOS -------------------- */
+
+                                           /* COMIENZO ARTICULOS FINALES  */
+
+#articulosFinales {
+    display: inline-flex;
+    text-align: justify;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #251007;
+    width: 1350px;
+    color: #7F4934;
+    padding-bottom: 15mm;
+    
+}
+
+.artfin{
+    margin-left: 30px;
+    width: 800px;
+
+}
+
+.titulosArtFin{
+
+    margin-top: 37px;
+    margin-bottom: 37px;
+
+
+}
+
+.artfin2{
+    margin-left: 40px;
+    width: 400px;
+}
+
+.p1{
+    margin-top: 5mm;
+    font-size: 12px;
+}
+
+.p2{
+    
+    color: #7F4934;
+    font-size: 12px;
+}
+
+  /*------------------- ---------- COMIENZA RESPONSIVIDAD ARTICULOS FINALES------------------- */
+
+@media (max-width:320px){
+
+    #articulosFinales{
+
+        width: 1280px;
+            flex-direction: column;
+    
+    }
+
+    .artfin , .artfin2{
+
+        width: 1280px;
+    }
+
+    .titulosArtFin{
+
+       font-size: 36pt;
+       text-align: center;
+       margin-top: 60px;
+
+    }
+
+    .p1{
+
+        font-size: 30pt;
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 30px;
+        width: 1150px;
+    }
+
+    .p2{
+
+        font-size: 30pt;
+        margin: 40px;    
+        width: 1150px;
+        text-align: center;
+
+    }
+}
+
+   /*------------------- ---------- TERMINA RESPONSIVIDAD ARTICULOS FINALES------------------- */
+
+                                      /* FIN ARTICULOS FINALES  */
+
+                                      /*   COMIENZO FOOTER   */
+
+
+footer{
+
+    background-color: #140A06;
+    height: 30mm;
+    width: 1350px;
+    
+    
+}
+
+.fondo{
+    
+    padding-top: 13mm;
+    padding-left: 13cm;
+    color: #7F4934;
+    
+}
+
+
+
+.fondo2{
+    padding-left: 16cm;
+    color: #7F4934;
+}
+
+/*------------------- ---------- COMIENZA RESPONSIVIDAD FOOTER------------------- */
+
+@media (max-width:320px){
+
+    #final{
+
+        width: 1280px;
+        height: 6cm;
+
+    }
+
+    .fondo , .fondo2{
+
+        font-size: 25pt;
+        padding: 0;
+        text-align: center;
+    }
+    .fondo{
+        padding-top: 2cm;
+    }
+}
+/*------------------- ---------- TERMINA RESPONSIVIDAD FOOTER------------------- */
+
+
+
+
+                                      /*   FINAL FOOTER     */                                     
